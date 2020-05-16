@@ -10,3 +10,4 @@ for i in some_list:
     print(f'{num} {i}')
     num += 1
 
+
