@@ -9,7 +9,9 @@
 # Необходимо использовать написанную ранее функцию int_func().
 
 def int_func(text):
-    return text.title()
+    First_Letter = chr(ord(text[0]) - 32)
+    next_letter = text[1:]
+    return First_Letter + next_letter
 some_text = 'this is the example'
 text_list = some_text.split()
 Text_List = []
