@@ -15,14 +15,10 @@
 
 # Без функции title
 def int_func(text):
-    First_Letter = chr(ord(text[0]) - 32)
-    next_letter = text[1:]
-    return First_Letter + next_letter
-
+    return chr(ord(text[0]) - 32) + text[1:]
 
 some_text = 'this is the example'
-text_list = some_text.split()
 Text_List = []
-for i in text_list:
+for i in some_text.split():
     Text_List.append(int_func(i))
 print(' '.join(Text_List))
