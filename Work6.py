@@ -14,7 +14,6 @@
 
 # Без функции title
 def int_func(text):
-    return text.title()
     First_Letter = chr(ord(text[0]) - 32)
     next_letter = text[1:]
     return First_Letter + next_letter
