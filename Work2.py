@@ -12,4 +12,3 @@ def element_20_or_21(func_list):
     return [num for num in func_list if 19 < num < 241 and num%20 == 0 or num%21 == 0]
 
 element_20_or_21(big_element([300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]))
-
